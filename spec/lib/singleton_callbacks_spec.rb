@@ -29,6 +29,7 @@ describe Object do
 
     before do
       expect(Manager).to receive(:validate).ordered
+      expect(Manager).to receive(:original_save).and_return('saving').ordered
       expect(Manager).to receive(:notify).ordered
     end
 
