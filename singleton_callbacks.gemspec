@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths = %w(lib)
 
   s.add_dependency 'bundler', '~>1'
-  s.add_dependency 'activerecord', '~>4'
+  s.add_dependency 'activesupport', '~>4'
 
   s.add_development_dependency 'sqlite3', '~>1'
   s.add_development_dependency 'rspec', '~>3'
