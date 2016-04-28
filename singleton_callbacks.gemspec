@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ['r4z3c.43@gmail.com']
   s.homepage    = 'https://github.com/r4z3c/singleton_callbacks.git'
   s.summary     = 'Callbacks support for Ruby singleton classes'
-  s.description = 'Provides callbacks support for Ruby singleton classes'
+  s.description = 'Provide callbacks support for Ruby singleton classes'
   s.licenses    = %w(MIT)
 
   s.files = `git ls-files`.split("\n")
